@@ -23,8 +23,8 @@ body {
 
 .banner {
     position: absolute;
-    top: 25%;
-    left: 24%;
+    top: 30%;
+    left: 25%;
 
 }
 
@@ -96,7 +96,26 @@ input {
     font-weight: 700;
     border-radius: 7px;
 
+}
 
+.link-button3 {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(250, 16, 75), rgba(245, 54, 92, 0.963));
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 7px;
+
+}
+
+.link-button4 {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(250, 16, 75), rgba(245, 54, 92, 0.963));
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-left: 150px;
 }
 
 hr {
@@ -180,6 +199,7 @@ h2 {
 }
 
 .food {
+
     background-color: #EFFFFD;
     width: 500px;
     padding-left: 25px;
@@ -209,4 +229,63 @@ h2 {
     padding-top: 60px;
     padding-bottom: 60px;
     border-radius: 10px;
+}
+
+.gray {
+    color: grey;
+}
+
+.volunteer {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.suvive {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.suv {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 30px;
+    padding-left: 25%;
+}
+
+.suv-img {
+    width: 800px;
+    height: 70%px;
+    margin-right: 90px;
+    margin-left: 80px;
+}
+
+.vh-img {
+    height: 100%;
+    margin-right: 50px;
+    margin-left: 155px;
+}
+
+.vh {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 30px;
+
+}
+
+.vh-p {
+    color: gray;
+    padding-top: 10%;
+    padding-right: 30%;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.suv-p {
+    color: gray;
+    padding-left: 25%;
+    margin-top: 40px;
+    text-align: justify;
+    margin-bottom: 40px;
 }
