@@ -115,7 +115,7 @@ input {
     color: white;
     font-weight: 500;
     border-radius: 7px;
-    margin-left: 150px;
+    margin-left: 137px;
 }
 
 hr {
@@ -330,4 +330,26 @@ h2 {
     font-weight: bold;
     color: white;
 
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(31, 133, 250);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.footer-h {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 0);
+}
+
+.text {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
 }
