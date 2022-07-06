@@ -23,8 +23,8 @@ body {
 
 .banner {
     position: absolute;
-    top: 30%;
-    left: 25%;
+    top: 25%;
+    left: 24%;
 
 }
 
@@ -47,7 +47,7 @@ body {
     color: rgb(30, 27, 27);
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
 .donate-today {
@@ -109,11 +109,12 @@ hr {
 
 .second {
 
-    padding-top: 100px;
+    padding-top: 60px;
 
 }
 
 .dt {
+
     font-size: 60px;
     text-align: center;
 }
@@ -159,4 +160,53 @@ hr {
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.donate-plan {
+    text-align: center;
+    padding: 20px 50px 100px;
+    display: block;
+}
+
+.flexible-container {
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    margin-bottom: 150px;
+
+
+}
+
+.food {
+    background-color: #EFFFFD;
+    width: 500px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.education {
+    background-color: #FEE3EC;
+    width: 500px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.shelter {
+    background-color: #FEFBE7;
+    width: 500px;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
 }
