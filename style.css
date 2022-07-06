@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+    margin: 0;
+}
+
+.first {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+
+.white {
+    color: rgb(241, 241, 241);
+    font-size: 70px;
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+}
+
+.p1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+
+.p2 {
+    color: rgb(30, 27, 27);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.p3 {
+    color: rgb(30, 27, 27);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.donate-today {
+    text-align: center;
+    padding: 30px 50px 100px;
+    display: block;
+}
+
+input {
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.ammount {
+
+    border: none;
+    font-size: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: gray;
+
+}
+
+.link-button2 {
+
+    text-decoration: none;
+    background-image: linear-gradient(rgb(146, 216, 33), rgb(90, 233, 13));
+    padding: 20px 35px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+
+
+}
+
+hr {
+    margin-bottom: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center
+}
+
+
+.second {
+
+    padding-top: 100px;
+
+}
+
+.dt {
+    font-size: 60px;
+    text-align: center;
+}
+
+.dp {
+    font-size: 60px;
+    text-align: center;
+}
+
+.tk {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.blank {
+    background-color: rgba(240, 237, 234, 0.676);
+    padding: 30px 30px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    color: gray;
+}
+
+.box-color {
+    font-size: 25px;
+    background-color: rgb(240, 149, 149);
+    padding: 30px 30px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgb(238, 33, 33);
+    border: 200px;
+    border-color: red;
+    border-radius: 15px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(146, 216, 33), rgb(90, 233, 13));
+    margin-left: 300px;
+    padding: 20px 35px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+
+}
