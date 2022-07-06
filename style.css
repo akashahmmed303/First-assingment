@@ -8,7 +8,7 @@ body {
 }
 
 .first {
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100vh;
@@ -76,10 +76,21 @@ input {
 
 }
 
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(146, 216, 33), rgb(90, 233, 13));
+    margin-left: 300px;
+    padding: 20px 35px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+
+}
+
 .link-button2 {
 
     text-decoration: none;
-    background-image: linear-gradient(rgb(146, 216, 33), rgb(90, 233, 13));
+    background-image: linear-gradient(rgb(251, 92, 12), rgb(233, 50, 13));
     padding: 20px 35px;
     color: white;
     font-weight: 700;
@@ -90,9 +101,9 @@ input {
 
 hr {
     margin-bottom: 50px;
-    padding-left: 25%;
-    padding-right: 25%;
-    text-align: center
+    width: 60%;
+    margin-left: 300px;
+
 }
 
 
@@ -116,6 +127,10 @@ hr {
     display: flex;
     justify-content: space-evenly;
     margin-left: 100px;
+    padding-top: 10px;
+    padding-right: 15%;
+    padding-left: 10%;
+
 }
 
 .blank {
@@ -130,23 +145,18 @@ hr {
 
 .box-color {
     font-size: 25px;
-    background-color: rgb(240, 149, 149);
+    background-color: rgb(250, 197, 197);
     padding: 30px 30px;
     text-align: center;
     margin-bottom: 100px;
     color: rgb(238, 33, 33);
-    border: 200px;
     border-color: red;
     border-radius: 15px;
+    font-weight: 1000;
+    border: 4px solid tomato;
+
 }
 
-.link-button {
-    text-decoration: none;
-    background-image: linear-gradient(rgb(146, 216, 33), rgb(90, 233, 13));
-    margin-left: 300px;
-    padding: 20px 35px;
-    color: white;
-    font-weight: 700;
-    border-radius: 7px;
-
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
