@@ -143,6 +143,20 @@ hr {
     text-align: center;
 }
 
+.em-h {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.em-p {
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
 .tk {
     display: flex;
     justify-content: space-evenly;
@@ -288,4 +302,32 @@ h2 {
     margin-top: 40px;
     text-align: justify;
     margin-bottom: 40px;
+}
+
+.email {
+    width: 60%;
+    margin-left: 240px;
+    margin-bottom: 180px;
+    background-color: rgba(245, 222, 179, 0.801);
+    padding: 85px 80px;
+
+}
+
+.email-input {
+    background-color: rgba(194, 182, 182, 0.537);
+    margin-left: 27%;
+    padding: 20px 40px 18px 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.subscribe-btn {
+    padding: 25px 40px 18px 40px;
+    margin-left: -5px;
+    background-color: tomato;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+
 }
